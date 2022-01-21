@@ -1,0 +1,89 @@
+body{
+  background-color: lightgray;
+  max-width: 900px;
+  text-align: justify;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+
+  }
+  h2{
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  p{
+    font-size: 15px;
+  }
+  a {
+    color: red;
+    font-weight: bold;
+  }
+  
+  table{
+    border-collapse: collapse;
+    text-align: justify;
+    
+  }
+  tr:nth-child(even) { 
+    background-color: rgb(50, 50, 50);
+  }
+  tr:nth-child(odd) { 
+    background-color: rgb(240, 240, 240);
+  }
+  th {
+    background-color: rgb(48, 50, 51) ;
+    color: honeydew;
+    text-align: center;
+  }
+  tr:hover {
+  background-color: rgb(107, 95, 95);
+  cursor: pointer;
+  }
+  figure {
+  height: 900px;
+  margin: auto;
+  border: 5px solid red;
+  border-radius: 1%;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+img {
+  width: 95%;
+  height: 80%;
+}
+figcaption {
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.pr {
+  background-color: rgb(175, 175, 175);
+  color: rgb(99, 35, 216);
+  border: 4px dashed rgb(99, 35, 216);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 850px;
+  *height: 320px;
+}
+.p-color {
+  width: 800px;
+  margin: auto;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 18px;
+}
+}
+
+
+  
