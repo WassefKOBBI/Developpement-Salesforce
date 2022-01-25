@@ -1,16 +1,10 @@
-function diagonale(matrice){
+function diagonale(matrice) {
   let diagonale1 = 0;
   let diagonale2 = 0;
   for (let i = 0; i < matrice.length; i++) {
-    for (let j = 0; j < matrice.length; j++) {
-      
-        diagonale1 += parseInt(matrice[i][i]);
-      
-      if (j === matrice.length - (1 + i)) {
-        diagonale2 += parseInt(matrice[i][j]);
-      }
-    }
+    diagonale1 += parseInt(matrice[i][i]);
+
+    diagonale2 += parseInt(matrice[i][matrice.length - (1 + i)]);
   }
-  return diagonale1, diagonale2;
-  
+  return diagonale1 + diagonale2;
 }

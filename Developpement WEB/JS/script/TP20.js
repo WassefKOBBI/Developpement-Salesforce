@@ -3,11 +3,11 @@ function rotation(table, nombre, sens) {
   let i=0;
 do{
 
-  if ((sens === 1)) {
+  if (sens === "droite") {
     D = table.pop();
     table.unshift(D);
     i=i+1
-  }else if ((sens === 2)) {
+  }else if ((sens === "gauche")) {
     D = table.shift();
     table.push(D);
     i=i+1
