@@ -1,0 +1,24 @@
+/* Menu de navigation */
+.logo {
+  width: 60px;
+  height: 60px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+/* Footer */
+.footer_elt-padding {
+  padding: 40px;
+}
+.footerbackground {
+  background: linear-gradient(to right, rgb(213, 76, 96), rgb(48, 50, 99));
+}
+@media screen and (min-width: 768px) {
+  .border-left {
+    border-left: 2px solid white;
+  }
+}
